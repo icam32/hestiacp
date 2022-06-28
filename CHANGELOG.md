@@ -1,6 +1,21 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.6.1] - Major Release (Feature / Quality Update)
+
+### Bugfixes
+
+- Fixed an issue with rate limit and alias domains (#2676, #2666)
+- Fixed an issue with reject spam option (#2687, #2864)
+- Fixed an issue in the installer when sieve is enabled (#2675, #2668)
+- Fixed an issue with Filemanger in development mode (#2682 #2644) 
+
+### Dependencies
+
+- Update hestia-nginx to 1.23.0
+- Update PHPmailer to 6.6.3
+- Update Roundcube to 1.5.3
+
 ## [1.6.0] - Major Release (Feature / Quality Update)
 
 ### Important Notes
