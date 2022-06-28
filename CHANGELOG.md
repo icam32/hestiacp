@@ -18,7 +18,7 @@ All notable changes to this project will be documented in this file.
 
 - Improve restart behaviour php-fpm
 - Improve updating process to make it faster. 
-- Removed outdated / never used test scripts ( #2685)
+- Removed outdated / never used test scripts (#2685)
 
 ### Dependencies
 
