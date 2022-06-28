@@ -8,11 +8,11 @@ All notable changes to this project will be documented in this file.
 - Fixed an issue with rate limit and alias domains (#2676, #2666)
 - Fixed an issue with reject spam option (#2687, #2864)
 - Fixed an issue in the installer when sieve is enabled (#2675, #2668)
-- Fixed an issue with Filemanger in development mode (#2682 #2644) 
+- Fixed an issue with File manager in development mode (#2682 #2644) 
 - Fixed multiple small in templates (#2659 @ledoktre, #2680, #2671, #2679, #2670, #2681, #2699)
 - Fixed add second check if DNS resolving fails (#2678)
 - Fixed an issue where v-change-sys-hostname does not update host file (#2688 #2683)
-- Fixed an issue with idn conversions not working on new server installs (#2692 @wojsmol)
+- Fixed an issue with IDN conversions not working on new server installs (#2692 @wojsmol)
 
 ### Enchantments
 
