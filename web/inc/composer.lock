@@ -1,4 +1,3 @@
-root@dev:/usr/local/hestia/web/inc# cat composer.lock 
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
