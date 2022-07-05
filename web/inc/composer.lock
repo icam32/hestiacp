@@ -1,11 +1,51 @@
+root@dev:/usr/local/hestia/web/inc# cat composer.lock 
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c3d62e919c2177ee2d1eff04c5d4018",
+    "content-hash": "950cba139807bf0abe06665ef911f5c3",
     "packages": [
+        {
+            "name": "divinity76/phpquoteshellarg",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/divinity76/phpquoteshellarg.git",
+                "reference": "676868a28ea4508df2036f2261fac2293d4ece62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/divinity76/phpquoteshellarg/zipball/676868a28ea4508df2036f2261fac2293d4ece62",
+                "reference": "676868a28ea4508df2036f2261fac2293d4ece62",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Divinity76/quoteshellarg/quoteshellarg.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "description": "php quote shell arguments",
+            "homepage": "https://github.com/divinity76/phprouter",
+            "keywords": [
+                "escapeshellarg",
+                "quoteshellarg"
+            ],
+            "support": {
+                "issues": "https://github.com/divinity76/phpquoteshellarg/issues",
+                "source": "https://github.com/divinity76/phpquoteshellarg/tree/v1.0.1"
+            },
+            "time": "2022-07-04T18:29:57+00:00"
+        },
         {
             "name": "phpmailer/phpmailer",
             "version": "v6.6.3",
