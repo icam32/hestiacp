@@ -92,10 +92,10 @@ if [[ $rtype =~ NS|CNAME|MX|PTR|SRV ]]; then
     record=$(idn2  --quiet  "$record" )
 fi
 
-if [ "$rtype" != "CAA" ]; then
+if [ "$rtype" != "CAA" | "TXT" ]; then
     dvalue=${dvalue//\"/}
 
-    if [ "$rtype" != 'SRV' ] && [[ "$dvalue" =~ [\;[:space:]] ]]; then
+    if [ "$rtype" != 'SRV' | "TLSA" ] && [[ "$dvalue" =~ [\;[:space:]] ]]; then
         dvalue='"'"$dvalue"'"'
     fi
 fi
